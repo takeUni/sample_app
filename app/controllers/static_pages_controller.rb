@@ -10,4 +10,8 @@ class StaticPagesController < ApplicationController
     # roots / root
     # routes / route
   end
+
+  def about
+    # => app/views/static_pages/about/html.erb
+  end
 end
